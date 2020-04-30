@@ -5,3 +5,8 @@ font-size:1.6em;
 h1 {
 background-color:rgb(255, 20, 20);
 }
+ol, ul {
+text-align: left;
+font-weight: bold;
+
+}
