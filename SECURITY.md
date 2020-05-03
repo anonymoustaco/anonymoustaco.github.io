@@ -1,14 +1,14 @@
-<meta-charset ="utf-8"="">
+
 
 # Security Policy
 
 ## Versions realesed
 
-2.  1.0
+1.  1.0
 
 ## Versions Applable
 
-2.  1.0
+1.  1.0
 
 ## Vonuerablity issues
 
