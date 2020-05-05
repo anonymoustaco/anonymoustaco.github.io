@@ -1,29 +1,42 @@
-<!doctype html>
-<head>
-<meta-charset="UTF-8">
-<style>
-    h1 {
-        background-color: rgb(255, 255, 255);
-    }
+<div>
+    <!doctype html>
+    <head>
+        <meta-charset ="UTF-8">
+            <style>
 
-    body {
-        background-color: rgb(128, 128, 128);
-        font-family: "Helvetica", sans-serif;
-        text-align: center;
-        font-size: 2.5em;
-    }
-    ul, ol {
-    text-align: left;
-        
-        /*padding: 2;*/
-    }
+                h1 {
+                    background-color: rgb(255, 255, 255);
+                }
 
-</style>
-</head>
-<body>
+                body {
+                    background-color: rgb(128, 128, 128);
+                    font-family: "Helvetica", sans-serif;
+                    text-align: center;
+                    font-size: 2.5em;
+                }
 
-    <h1>404! That page does not exist.</h1>
-    <h2>We where Unable to find that page</h2>
-    <a href="https://anonymoustaco.github.io">Take me home!</a><br>
-    <a href="https://anonymoustaco.github.io/list.html">Take me bach to complete list!</a>
-</body>
+                ul, ol {
+                    text-align: left;
+                    /*padding: 2;*/
+                }
+
+                #error {
+                    color: rgb(255, 0, 0);
+                    font-size: 2.75em;
+                }
+            </style>
+    </head>
+    <body>
+        <span id="error"><h1>ERROR</h1></span>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIRDxIQERASEBIQFg8QEBUVERYWEhIYFRUXFxUXFRUYHSggGBslHRYWITElJTUrMzIvFyMzODMsNygtLisBCgoKDg0OGxAQGy8lICYvLTctLy0tLi0tLi0
+         tLS0rLS0tLS8tLS0tLS0tKy0tLS0rLS0tLS0tLS0tLS0tKy0tLf/AABEIALgBEQMBEQACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAABQECAwQGB//EAEQQAAICAQEFBAUIBQsFAAAAAAABAgMRBAUSITFBBhNRgSJhc
+
+
+  ZHRFDJScpKhscEHQ2KC8BUWI0JEU1SD0uHxY5Oio8L/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAQMCBAUGB//EADQRAQACAQIEAwcDAwQDAAAAAAABAgMEEQUSITETQVEGFFJhcZGhIoHwsdHhFUJywTIzQ//aAAwDAQACEQMRAD8Ayl7yIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2ns67Ge4tw+KfdTx+A3W+Dk+GWGdE1zhJe2LX4jdjNLR3iWLeXiGKqYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdXW5SUYpylJ4SSy2/BIMorNp2hvbQ1dWzV6ahfrcJwqzmvT54qVuPnS6qP/Jo6nVxj6R3e19n/Ze+pmMubpX+dI/u5h9sNfvOXyy7Lbb9Lhx8FySOV7zl9X0iOC6Hl28OGSHbfaK5ayfnGD/GJlGqy+rC3AdBP/z/ADP92ePb/aHW6M/rU1v/AOTKNZl9VFvZrh9v9n5lN7B20toqWmvVVep4z0tkYqCsePSqml14ZT+HHc0urm88t3k/aT2ZpixeLp46R3+X+J/DSsg4ycZJxlFtST5prmmdN83mJidpWhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2NBo53WKuuO9KXkkurb6JCZ2hZixWyW5a91dsdoatCpUaOSt1DTjdqeca/GFPr/AGv4XL1Ot2/TR9K9nvZSIiM2pj9vOf7R+ZcJOTbbbbbbbbeW2+LbfVnKmd+76JWkVjavSFAkCQCsJuLUotxcWnFp4aa4pp9GInbqwvSLxNbdYl6JRrFtHTu9JLV6dJaqC/WwXK6K8fFf7Z7uk1HiV2nu+Q+1HAZ0mTxccfpn+bfWPzCNNx4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASWyXu1a2fJw0eqw/BySSKdRO2Ofo7vs7j59fjj5x/WHnR5x917ASBIAAAbmyNp2aW+F9UsTg/KS6xkuqa4GePJNLc0NTWaTHqsU4skdJ/HzdztqmH9DfUtyGrrjfGt8697mvZ4HosV+ekS+FcX0UaTU2xxO/WfwjSxywAAAAAAAAAAAAAAAAAAAAAAAAAAAADfpe7s/aM/+nTX9uzBq6ydsUvU+yWPn19frH43lAdg9KrNVPMFPco1E4xdSt9Ld3Y4rlwm8yXA5OlrE36+j6fx7LbHpo5Z23tHnt8+8dkjHRRntSqq7TwrqhC2ySlpfkynGNU5b04RbylJYyvAt5InLEWjp9Nmj49sfD7Xx5Jm0zEf+XNt1iOkz6x6sPaHZmn7nTSpVMbNTZu1ypd7plDjGTl3vzZKeOC6Z9Rjlx05YmvnPks4frNTGXJXLMzFK9Yty779+m3eJhatj6Oepns+C1Eb4O2EbpSjuTnXGTe9Vu5jB7rw02+THhY5t4cb7+rL37WUwRq7TWaTt+mO8RM+vqs2L2TWo0sL969OyVkV3em76MVDdWZYkmstvx5EY9NFqc3X7M9Zxq2DUTiiK7REd7bT1/aWnR2alK/VUu+uK0mVOxqTg/TUFhRTeW3+JhXBvaa79mzk4tFMOLLyTM37R037b+bS2xsiem3HKddkLYudc623GSUnF/OSaaa6owyYppt82zo9dTUxbaJia94l3XaKO69NUv1Wl00MeDw2/wAUd/DG1Ih8S45k8TWXn5z+ZlEFrjgAAAAAAAAAAAAAAAAAAAAAAAAAAAAG5rvR2Pqn/eXaav7LUzS187Ype29iab6yJ9N/6f5cAcN9dmIllWpmnlTmnhxzvPO6+Djnw4vgZc0+qrwMe23LG30XPWWd13G/Lut7vNzL3N7DW9jxwxz225d+jH3fH4ni8sc222/nskre1OrlW4O1elHu5T7uCulHGN2VqjvNY9ZbOovMbbtKvB9LW/NFZ777bzy7+u3Zh0m3rqvk244r5I7JVcHx7yWZqfHiny6cDGua1dtvJZl4bhy+Jzf79t/lt22ZdNt+VK1PcQ+TvU90k65yj3KhLeag+eHy5mUZprzcsbbqsnDK5fCjLbmim/eO+/r9F23Nq/LrqZyU1dKNdVubN6EmsRTrjj0E+La8WMmTxbR6o0ek9xxZIiY5esx06/vPm7DtZLOttS5R3IL92EV8T0FY2h8O19ubUWlEGTTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN/Z2rgozovj3mmvwrY9YvpZDwkufl7CvJji9dpdLhnEcmizRkpOzku0mxJ6O7cb365rfosXzbYPk16/FfFHAz4ZxW2l9u4VxLHrsMZKd/OPT/CKKXTAkAAAhPdjdj2ajVVyjFKqiddt85PEIQjJSeX4tJ4X5cTY02K17xt5OPxrX4dLprxeetomIj+eToNq3qzUXWJ5U7LJRfinJ4+7B6GOz4TmtzZLT82oFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAk9HOu+l6LUvFcnmizrp7Hya/ZfVevzKM+GMtdpd7gfGMmgzxMT0/nT+dnC7Y2Zbpbp0XR3ZwflJdJRfVM4GTHNLcsvtej1ePVYoy456T+J9GmYNoAATnZrs7PVylOUu501XG65rgv2YfSm/D1+xPYwae2Wfk4vGOM4eH497Tvbyj/ALn+dXUa7Xx7tabTQ7nTQ5R/rWP6dr6v+PZ3ceKuONofGuJ8Uza7LNrz/P7fJHFjlgAAAAAAAAAAAAAAAAAAAAAEH2r25LRwqnGEZ7892Sba9FJt4a5P3mNp2bmj00Z5mJlu7H2xVqob9Us4xvRfz4fWX58iYmJVZ9PfDO1vu3yVAAAAAAACSvt0+qohTrFbvUvFN1W73ii+cJb3Ncv4562fTVy93peDe0ebh28d/r2R1vZ3ZyTl8s1FaSbe9Qpcvqmpbh9Yjfd6fD7c2vaK8kbz9YYaOy2jtW9VtVNcV6eksjy9rKq6Dmjetvw37+2lMVuXJj2n/l/hno7F6eMlO3aNNlUeM41p99JfRin1ZlXh879Z6K8/tvg8KZx1/V5dd25tHaHeKNcIKmirhVVHlH1y+lJ9X6zqUpFI2h8112uy6vJN8ktEzaQAAAAAAAAAAAAAAAAAAAAAAAh+1uzvlGjsilmcF3tfjmPHC9qyvMxtG8NvRZfDyx6T0eY7G75Tc9PJxsrW8kuclnjhcn04Mq3ehvSt45bQ9C7N9rIajFVuKr+WOUZv9nPJ+p/eWVtv3cPVaG2P9VOsf0dIZueAAAAAACWrtR4os+rj38CrN/65behjfUU+rHsWOKI+vef/AJMx00bY4WcTnfU2/ZvF7ngAAAAAAAAAAAAAAAAAAAAAAAAAAeV7Vo+RbReOEHLfj4bk+a8uK/dKbR1em0uXxMUWS21djQv9JehZ0klz+t4+0x3bWyT7IbUv7x6TU8ZRjvUzfFyUXhre/rcGn48HktpZxeIaWtI8SsfV1Zm5IAAAAJbRbElJKU3uJ9Mel/saeXWVrO1ert6Xgt8lYtknlj080i9iUODhKvfUueW8vzXLyNK+oyX7y7uDh2nw9a16+staXZ2tQUam4Y5JveX38S3Fq5pG0x0amr4PTNM3rO1p+yG1FDhJwlzXPjnnxR0qXi9eaHmM+G2G80v3hiMlIAAAAAAAAAAAAAAAAAAAAAAAAAOP/SRs7fohqEuNL3ZfVm8L3Sx9owvDqcNy7Xmk+bT7ParvNPHL9KHoS8uX3YKnchm2hN1uvURWZaeam/FwfCxfZ/AmJ2lVmxxkxzX1drGSaTTymk0/FPkXvKzG07KhABdCDk0optvgkupEzFY3lnSlrzy1jeXRbM2Sq8TniU+i6R+L9ZzM+qm/6a9nquH8Krh/Xk62/EJM03ZAD5cOfTPImEW326d3HaycnZNz+dlqWOSxw4e47mKIikRXs8Fqr3vmtOTvuwmbXAAAAAAAAAAAAAAAAAAAAAAAAABh1mmjbXOqXzbIyg/NYExuzx3mlotHk8x7PSlRqrNPPg25Qf1oN/is/cUS9VS8WrFo83ebL2DZqoy3HXup7k96T6rwSfDDJrSbMcmatO7pdidmJU0V1WXKbrW6nGOMpP0eb6LC8i+K7Q4ubDXJkm0eaVr2NUue9L2v4YJ2Yxp6Q2K9FXHlXHzWfxJ2WRirHk2a14L3Gvqqc2Kfk39DkjHmj59GdVPwOI9IvVHrI3F6pQ3GHXz7uqc1iLjFuLa69EWYq814iWtrMvhYbWidp26OHsm5Nyby5Ntvxb5nciIiNoeEveb2m095WksQAAAAAAAAAAAAAAAAAAAAAAAAAAPO/wBIGjdOqr1UOHeYz9eGOftWPcyu8dXd4bl5sfJ6f0dr2E2ku+ik/Q1MUl9bnH815kY52nZt6mm9N/R6MqWbLm7rlSvEG69VrwCFxExvGzKs7TEsx5yY6vXVneIkIZI/aG2tPRjvbYxb5RXGT9kVx6oyillM56REzv27uc21tLv5RxFxjDKWXxeer6LkdfT4PCjrPd5DiOv96tG0bRCONhzQAAAAAAAAAAAAAAAAAAAAAAAAAAAEP2s2d8o0lkEszgu8r8d6PRe1ZXmY2jeG3o8vh5Ynyno5HsdrnubqeJ0yU4PwTeV7mmU/N6TbeNnveztWrqa7Y8rIqXsfVeTyvI24neN3IvXltMNklgAaO1Noxqi+Kc2vRj19r8ERMqsmWKx83KS1E3zsm/bJv8yrkr6NSc+Se9p+49RPGN+ePDeePdkclfQ8bLttzT95RW0dHKyytxxiDzLL9af5FObFN7RMeTe0Wqx4cV4t3lIGw5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXmWso+RbTlHlXa8x8N2x8PdLh5FNo6vS6TL4mKLfd6h2R7RV0Uzruk0oy3q8Rbb3vnRWPWs8fpGeO8RG0o1GCb2iapCjtrC2ydddMk4KMk5tLeTbWUl4NePVGdcm7Q1VbYIifVZqNs3T4bygvCKx9/Mndz7Zry0G88XxyQqUCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOQ/SPs7fohelxpe7L6s/g8faZhePN1OGZdrTSfNg2Tqu9phPq1iXtXB/HzKncUq21VXrKYqWZOTqsxxSjPhhvx3lB+TJrO0tXWY/ExTH7upv2zpoScZ6iqMo8GnNZXtRdzQ4EabNMbxWWJ9odJ/iavtoc0MvdM3wyo+0mj/xNfvHNB7nn+Fb/OfR/wCJh9/wHNCfc8/wrH2q0S/tEfszf5DmhPuWf4Vr7W6L+/8A/VZ/pI54T7hn+H8qfzu0f97L/s2/6Rzwn/T8/p+RdrtHlf0rWeGXVYl5vdHPB/p+f0/KZoujOKnCSnF8nFpp+aMmpatqztaNl4YgAAAAAAAAAAAAAAAAAAAAAAAAAxazTRtrnVL5tkZQfsawJZ47zS0WjyeO233afvdNvOOJyU8cG2uDw/B4RRs9TS0WrEx5tCOcrHPoGTotDpFCPFJyfGT/ACKrW3S2N1eC9xG6VceoABUAAApKOVhrKfPPIIa1Kt08t/TWyrfNwz6MvJ8H5llbyryYaZI2tG7oNk9u4t7mqrdclwc4puPnHmvLJdF3KzcNnvjn9nX6XVQtip1zjZF8nFpoz3cy9LUna0bMoYAAAAAAAAAAAAAAAAAAAAAAAABwP6Q9htSeshjde5G1dU+Sl7HwX/JXePN2uHaiJjwp7x2cVTa4S3lzXLhkwdRne0rfp/cvgRywKfyjb9N+5fAcsAtba+U5P2DaDdd3t762e5jZHNHqqoah9Ln5TJ2Rz19Vy0mpf6u9/uzGyPEp6x91f5O1T/U6h/5dnwGyPGx/FH3V/kfVv+zah/5VnwGyPHx/FH3hfHs9q3/ZbvOtr8SeWUe84fij7t7Z/Y3V2v0q+5j1lY8e6K4smKzKnJrsNI77/R6B2c2LHR0utS33KTnKWMZeEuC8OBZWNnG1WonPbfbZKktYAAAAAAAAAAAAAAAAAAAAAAAALbK1JOMkpJ801lPyYZRaYneGJaKpcqq/sR+BG0MvFv8AFK9aeC5Qgv3UTsjxL+srlWvor3IbI57eq7ARzSrkBkIMgAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/Z alt="
+        <br>
+        <h1>404! That page does not exist.</h1>
+        <h2>We where Unable to find that page</h2>
+        <a href="https://anonymoustaco.github.io">Take me home!</a><br>
+        <a href="https://anonymoustaco.github.io/list.html">Take me bach to complete list!</a>
+    </body>
+</div>
