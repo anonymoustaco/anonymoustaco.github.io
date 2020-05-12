@@ -1,0 +1,43 @@
+
+body {
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4dd0e1;
+    background-color: #4dd0e1;
+}
+
+h1 {
+    background-color: #00838f;
+}
+
+h2 {
+    color: #0097a7;
+}
+
+h4 {
+    background-color: #009688;
+}
+
+#contents {
+    font-family: serif;
+}
+.link {
+    cursor: pointer;
+}
+
+.button {
+outline: solid black 3px;
+outline-color: #00b8d4;
+background-color: #00b8d4;
+color: #006064;
+}
+.button:hover {
+outline-color: 006064;
+background-color:006064;
+color: black;
+}
+.button:active {
+
+color: teal;
+}
