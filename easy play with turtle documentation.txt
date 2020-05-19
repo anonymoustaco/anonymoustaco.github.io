@@ -1,0 +1,8 @@
+How to use()
+  gives documentation in shell.
+  
+polygon(length, sides)
+  creates a polygon
+  
+circle(size)
+  creates a circle
