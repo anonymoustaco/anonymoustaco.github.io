@@ -4,6 +4,6 @@
 
 2. Move the pythom file into your pythonXX folder. In windows this is C:/Users/yourname/AppData/local/Programs/PythonXX
 
-3. At the begining of you program/shell type: import guess that number!.py as guessNum
+3. At the begining of you program/shell type: import-guess-that-number!.py as guessNum
  
 4. type guessNum.run() in your program/shell
