@@ -1,4 +1,5 @@
 +++++++++++++++++++++++++++++++++++++INSTALL INSTRUCTIONS+++++++++++++++++++++++++++++++++++++
+=======FOR THE FIRST INSTALL:========
 
 1. Download the python file below. Note: This will only work for python 3.0+
 
@@ -7,3 +8,14 @@
 3. At the begining of you program/shell type: import easy_play_with_turtle_2.0 as easyTurtle
  
 4. To use a command after writing th import statment, use easyTurtle.(YOUR COMMAND)
+
+UPDATE INSTALL:
+
+1. Delete any other previous versions of the documentation, nstall instructions, and the easy_play_with_turtle.py. (from your downloads AND your pythonXX folder.
+
+follow For First Install instructions from here.
+
+NOTE: Some old function calls from previous versions may not work due to updates. Always check the documentation for details.
+ Also, check out the news portion on our site for updates and bugfixes.
+
+
