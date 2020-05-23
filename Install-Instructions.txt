@@ -4,6 +4,6 @@
 
 2. Move the pythom file into your pythonXX folder. In windows this is C:/Users/yourname/AppData/local/Programs/PythonXX
 
-3. At the begining of you program/shell type: import easy_play_with_turtle as easyTurtle
+3. At the begining of you program/shell type: import easy_play_with_turtle_2.0 as easyTurtle
  
 4. To use a command after writing th import statment, use easyTurtle.(YOUR COMMAND)
