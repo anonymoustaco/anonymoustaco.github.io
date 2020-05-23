@@ -1,5 +1,4 @@
-How_to_use()
-  gives documentation in shell.
+
   
 polygon(length, sides)
   creates a polygon
