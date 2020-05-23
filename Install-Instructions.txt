@@ -11,11 +11,12 @@
 
 UPDATE INSTALL:
 
-1. Delete any other previous versions of the documentation, nstall instructions, and the easy_play_with_turtle.py. (from your downloads AND your pythonXX folder.
+1. Delete any other previous versions of the documentation, nstall instructions, and the easy_play_with_turtle.py. 
+   (from your downloads AND your pythonXX folder.
 
 2. follow For First Install instructions from here.
 
 NOTE: Some old function calls from previous versions may not work due to updates. Always check the documentation for details.
- Also, check out the news portion on our site for updates and bugfixes.
+   Also, check out the news portion on our site for updates and bugfixes.
 
 
