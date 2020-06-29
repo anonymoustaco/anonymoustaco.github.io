@@ -1,14 +1,14 @@
         @font-face {
             font-family: "header";
-            src: url(header.ttf);
+            src: url("https://raw.githack.com/anonymoustaco/anonymoustaco.github.io/master/realSites/header.ttf");
         }
         @font-face {
             font-family: "paragragh";
-            src: url(RobotoCondensed-Light.ttf);
+            src: url("RobotoCondensed-Light.ttfhttps://raw.githack.com/anonymoustaco/anonymoustaco.github.io/master/realSites/RobotoCondensed-Light.ttf");
         }
 @font-face {
     font-family: "signature";
-    src: url("DancingScript-Regular.ttf")
+    src: url("https://raw.githack.com/anonymoustaco/anonymoustaco.github.io/master/realSites/DancingScript-Regular.ttf")
 } 
 html {
 }
