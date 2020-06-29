@@ -1,0 +1,72 @@
+        @font-face {
+            font-family: "header";
+            src: url(header.ttf);
+        }
+        @font-face {
+            font-family: "paragragh";
+            src: url(RobotoCondensed-Light.ttf);
+        }
+@font-face {
+    font-family: "signature";
+    src: url("DancingScript-Regular.ttf")
+} 
+html {
+}
+        header {
+            text-align: center;
+            font-family: "header";
+            
+        }
+h1 {
+    font-size: 400%;
+}
+
+        .header {
+            font-family: "header";
+        }
+      
+        nav a {
+            color: lightgrey;
+            transition: 0.5s;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: grey;
+            cursor: pointer;
+        }
+        nav a:active {
+            color: black;
+        }
+        a {
+            color: lightgrey;
+            transition: 0.5s;
+            text-decoration: none;
+        }
+        a:hover {
+            color: grey;
+            cursor: pointer;
+        }
+        a:active {
+            color: black;
+        }
+        section p {
+            font-family: "paragragh";
+        }
+section {
+    border-bottom: solid 0.5px lightgrey;
+}
+        .bottom {
+            border-bottom: solid 0.5px lightgrey;
+            margin-top: 0.5%;
+        }
+.copyright {
+    color: lightgray;
+}
+.signature {
+    font-family: "signature";
+    display: block;
+    font-size: 300%;
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 3%;
+}
