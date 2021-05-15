@@ -1,4 +1,22 @@
 .nav {
     font-size: large;
-    padding: 20px 44px;
+    padding: 30px 54px;
+}
+#sidebar {
+    float: none;
+    width: 100%;
+    display: none;
+    transition: .25s;
+}
+#main-content {
+    float: none;
+    width: 100;
+}
+#header-logo {
+    width: 60px;
+    height: 74px;
+}
+#mobile-calender-toggle {
+    display: inline;
+    float: left;
 }
