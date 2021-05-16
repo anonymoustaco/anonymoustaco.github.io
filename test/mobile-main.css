@@ -1,9 +1,9 @@
 html {
-    font-size: x-large;
+    font-size: xx-large;
 }
 .nav {
-    padding: 20px 54px;
-    font-size: large;
+    padding: 30px 30px;
+    font-size: xx-large;
 }
 #sidebar {
     float: none;
@@ -16,10 +16,16 @@ html {
     width: 100;
 }
 #header-logo {
-    width: 39px;
-    height: 49px;
+    width: 91px;
+    height: 81px;
 }
 #mobile-calender-toggle {
     display: inline;
     float: left;
+}
+#footer-container {
+    margin: 8px;
+}
+#here {
+    display: none;
 }
