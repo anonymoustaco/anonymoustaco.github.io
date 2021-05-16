@@ -2,8 +2,12 @@ html {
     font-size: xx-large;
 }
 .nav {
-    padding: 30px 30px;
-    font-size: xx-large;
+    padding: 30px 20px;
+    font-size: x-large;
+    float: right;
+}
+h1 {
+    font-size-adjust: large;
 }
 #sidebar {
     float: none;
@@ -13,19 +17,35 @@ html {
 }
 #main-content {
     float: none;
-    width: 100;
+    width: 100%;
 }
 #header-logo {
     width: 91px;
     height: 81px;
+    display: none;
 }
 #mobile-calender-toggle {
-    display: inline;
-    float: left;
+    display: block;
 }
 #footer-container {
     margin: 8px;
+    display: block;
 }
 #here {
     display: none;
+}
+#footer {
+    float: none;
+    display: none;
+}
+#mobile-calender-container {
+    float: none;
+    text-align: center;
+}
+#spacer {
+    width: 100%;
+    height: 20px;
+}
+spacer-image {
+    width: 100%;
 }
